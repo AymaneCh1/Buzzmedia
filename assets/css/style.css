@@ -177,6 +177,7 @@ p {
 
 .split {
   display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 40em) {
