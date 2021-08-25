@@ -86,7 +86,7 @@ img {
   .nav-links {
     position: absolute;
     right: 0;
-    height: 92vh;
+    height: 70vh;
     top: 8vh;
     background-color: #fdfffc;
     display: flex;
