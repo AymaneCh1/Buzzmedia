@@ -190,6 +190,14 @@ p {
   .logo {
     width: 15%;
   }
+
+  .social-links {
+    width: 20% !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 !important;
+    margin: 10px 0;
+  }
 }
 
 .btn-col {
