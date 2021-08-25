@@ -177,7 +177,26 @@ p {
 
 .split {
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.btn-col {
+  display: flex;
+  align-items: center;
+}
+
+.btn-cta {
+  text-decoration: none;
+  margin: 30px 0 0 0;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: rgba(1, 22, 39, 1);
+  color: #fdfffc;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: rgba(1, 22, 39, 0.9);
 }
 
 @media (max-width: 40em) {
