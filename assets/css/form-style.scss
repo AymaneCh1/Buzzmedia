@@ -1,0 +1,65 @@
+$primaryClr: #011627;
+$secondaryClr: #fff;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@mixin verHorAlign() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif, serif;
+
+    .main-title {
+        margin: 30px 0 0 0;
+        padding: 0 0 0 20px;
+    }
+}
+
+.main-logo {
+    margin: auto;
+}
+
+.main-form {
+    width: 350px;
+    margin: auto;
+    border: 1px solid transparent;
+    padding: 20px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+label {
+    font-weight: 500;
+}
+
+.btn {
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+}
+
+footer {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        li {
+            font-size: 10px;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
