@@ -1,3 +1,4 @@
+var form = document.querySelector(".main-form");
 form.addEventListener("submit", function (event) {
   // if(form.checkValidity() === false) {
   //     event.preventDefault();
@@ -65,6 +66,7 @@ function saveMessage(
   scalingStrategy
 ) {
   var newMessageRef = messagesRef.push();
+
   newMessageRef.set({
     firstName: firstName,
     lastName: lastName,
