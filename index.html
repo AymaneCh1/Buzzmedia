@@ -1,174 +1,399 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favic  on-16x16.png"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
     />
-    <title>Buzzmedia</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <img src="/assets/svg/logo.svg" alt="" />
-        </div>
-        <ul class="nav-links">
-          <li><a href="#home">الصفحة الرئيسية</a></li>
-          <li><a href="#services">خدماتنا</a></li>
-          <!-- <li><a href="#aboutus">معلومات عنا</a></li> -->
-          <li><a href="#callus">اتصل بنا</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </header>
 
-    <section>
-      <div class="split">
-        <div class="col">
-          <img src="assets/svg/undraw_Social_media_re_w12q (1).svg" alt="" />
-        </div>
-        <div class="col">
-          <h1 class="animate__animated animate__fadeIn">
-            نجعلك <span class="highlighted">ناجحا</span> في عالم التواصل
-            الإجتماعي
-          </h1>
-        </div>
-      </div>
-    </section>
+    <link rel="stylesheet" href="public/css/form-style.css" />
+    <title>Free 30 Minute Strategy Call</title>
 
-    <section id="services">
-      <h2>خدماتنا</h2>
-      <div class="split">
-        <div class="col">
-          <ion-icon name="chatbubbles-outline" class="icon"></ion-icon>
-          <h3>إدارة وسائل التواصل الاجتماعي</h3>
-          <p>
-            نحن يوميًا ندير كل محتوى صفحات وسائل التواصل الاجتماعي الخاصة بك ،
-            ونستجيب لجميع تساؤلات زبنائك ونبقى على اتصال معهم كل يوم.
-          </p>
-        </div>
-
-        <div class="col">
-          <ion-icon name="code-slash-outline" class="icon"></ion-icon>
-          <h3>إنشاء موقع خاص بمشروعك</h3>
-          <p>
-            في الواقع ليس موقعًا على الويب ، إنه صفحة مقصودة حيث يمكن لعملائك
-            الاتصال بك مباشرة
-          </p>
-        </div>
-        <div class="col">
-          <ion-icon name="color-palette-outline" class="icon"></ion-icon>
-          <h3>إنشاء المحتوى</h3>
-          <p>
-            نصمم رسومات ولافتات وتصميمات خاصة لعلامتك التجارية لإظهار صورة شركتك
-            ومشاركة خدمتك أو منتجك بشكل أعمق
-          </p>
-        </div>
-        <div class="col">
-          <ion-icon name="card-outline" class="icon"></ion-icon>
-          <h3>​​الإعلانات المدفوعة</h3>
-          <p>
-            تعد إدارة وسائل التواصل الإجتماعي أمرًا مهمًا لمشروعك ، لكن من
-            الضروري إطلاق الإعلانات المدفوعة لمشاركة كل المحتوى الذي أنشأناه لك
-            والحصول على المزيد من الزبناء وتحقيق المزيد من المبيعات في النهاية.
-          </p>
-        </div>
-        <div class="col">
-          <ion-icon name="create-outline" class="icon"></ion-icon>
-          <h3>التعديل على الفيديوهات</h3>
-          <p>
-            بمجرد التسجيل معنا ، نحصل على فيديوهاتك السابقة التي تملكها ،نقوم
-            بتعديلها لجعلها أكثر جذابة وننشرها مباشرة على صفحات وسائل التواصل
-            الاجتماعي الخاصة بك
-          </p>
-        </div>
-        <div class="col">
-          <ion-icon name="videocam-outline" class="icon"></ion-icon>
-          <h3>صناعة فيديوهات</h3>
-          <p>
-            أهم شيء في اللعبة، مقاطع الفيديو مهمة جدًا لمشروعك، فمستخدمي وسائل
-            التواصل الإجتماعي يحبون دائمًا مقاطع الفيديو ولا يزالون يحبونها
-            بدلاً من أي نوع آخر من المحتوى. نحن نصنعها لك أيضًا.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="callus">
-      <h2>طور مشروعك الآن</h2>
-      <div class="form">
-        <form action="/sign_up" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-          <div class="input-field">
-            <label for="">الإسم</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="input-field">
-            <label for="">رقم الهاتف</label>
-            <input type="tel" id="phone" name="phone" required />
-          </div>
-          <div class="input-field">
-            <label for="">المدينة</label>
-            <input type="text" id="city" name="city" required />
-          </div>
-          <div class="input-field">
-            <input
-              type="submit"
-              id="submit"
-              value="نعم، أريد تطوير مشروعي"
-              class="cta"
-            />
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <img src="assets/svg/logo-white.svg" class="logo-white" alt="" />
-      <h4>تابعنا الآن</h4>
-      <ul class="social-links">
-        <li>
-          <a href="https://wa.me/212655695893" target="_blank"
-            ><ion-icon name="logo-whatsapp" class="sm"></ion-icon
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/Buzzmedia-105741501802822"
-            target="_blank"
-            ><ion-icon name="logo-facebook" class="sm"></ion-icon
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/buzzmediagency/" target="_blank"
-            ><ion-icon name="logo-instagram" class="sm"></ion-icon
-          ></a>
-        </li>
-        <li>
-          <a href="mailto: buzzmediagence@gmail.com" target="_blank"
-            ><ion-icon name="mail-outline" class="sm"></ion-icon
-          ></a>
-        </li>
-      </ul>
-      <span class="copyright">Buzzmedia - 2021</span>
-    </footer>
-
-    <script src="assets/js/script.js"></script>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.1.3/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.1.3/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-database-compat.js"></script>
     <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+      src="/__/firebase/9.1.3/firebase-firestore-compat.js"
     ></script>
     <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+      src="/__/firebase/9.1.3/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.1.3/firebase-messaging-compat.js"
+    ></script>
+    <script defer src="/__/firebase/9.1.3/firebase-storage-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.1.3/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.1.3/firebase-remote-config-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.1.3/firebase-performance-compat.js"
+    ></script>
+   
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a href="#" class="navbar-brand main-logo"
+        ><img src="public/assets/svg/logo.svg" alt="" width="120" height="30"
+      /></a>
+    </nav>
+
+    <div class="main-title">
+      <h2>Free 30 Minute Strategy Call</h2>
+    </div>
+
+    <form action="" method="post" class="main-form needs-validation" novalidate>
+      <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" class="form-control" required />
+        <div class="invalid-feedback">Please enter your first name</div>
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" class="form-control" required />
+        <div class="invalid-feedback">Please enter your last name</div>
+      </div>
+
+      <div class="form-group">
+        <label for="goalSelect">What do you need help with?</label>
+        <select class="form-control" id="goalselect" required>
+          <option>Increasing qualified traffic</option>
+          <option>Getting more leads</option>
+          <option>Increasing conversion rates</option>
+          <option>Improve my PPC</option>
+          <option>All of the above</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="email">What's your email?</label>
+        <input type="email" class="form-control" id="email" required />
+        <div class="invalid-feedback">Please enter your email</div>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">What's your number?</label>
+        <input type="tel" id="phone" class="form-control" required />
+        <div class="invalid-feedback">Please enter your phone number</div>
+      </div>
+
+      <div class="form-group">
+        <label for="">And Where are you based?</label>
+        <label for="city">City & State</label>
+        <input
+          type="text"
+          id="city"
+          placeholder="San Francisco, CA"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">Please enter your city & state</div>
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country? (Select one or add to Other)</label>
+
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="australia"
+            value="australia"
+            required
+          />
+          <label for="australia" class="custom-control-label">Australia</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="canada"
+            value="canada"
+            required
+          />
+          <label for="canada" class="custom-control-label">Canada</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="europe"
+            value="europe"
+            required
+          />
+          <label for="europe" class="custom-control-label">Europe</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="newzealand"
+            value="newzealand"
+            required
+          />
+          <label for="newzealand" class="custom-control-label"
+            >New Zealand</label
+          >
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="uk"
+            value="uk"
+            required
+          />
+          <label for="uk" class="custom-control-label">United Kingdom</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="us"
+            value="us"
+            checked
+            required
+          />
+          <label for="us" class="custom-control-label">United States</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            name="country"
+            id="othercountry"
+            value="othercountry"
+            required
+          />
+          <label for="othercountry" class="custom-control-label"
+            >Other Country</label
+          >
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>About Your Business</h3>
+
+      <div class="form-group">
+        <label for="duration"
+          >How long has your company been in business? (in years &
+          months)</label
+        >
+        <input type="text" id="duration" class="form-control" required />
+        <div class="invalid-feedback">Please enter the duration</div>
+      </div>
+
+      <div class="form-group">
+        <label for="businessType"
+          >Which of the following best describes your business?</label
+        >
+        <select class="form-control" id="businessType" required>
+          <option>Dropshipping</option>
+          <option>Physical Product Business (Online Only)</option>
+          <option>Physical Product Business (Online & Offline)</option>
+          <option>Digital Product Business</option>
+          <option>Service-based Business</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="revenue">What was your company's revenue in 2020?</label>
+        <input
+          type="text"
+          id="revenue"
+          placeholder="numbers only please, e.g. 2,500,000"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">Please enter your company's revenue</div>
+      </div>
+
+      <div class="form-group">
+        <label for="currentMonthlyRevenue"
+          >What is your current monthly revenue?</label
+        >
+        <select class="form-control" id="currentMonthlyRevenue" required>
+          <option>Less than $5,000</option>
+          <option>$5,001-$10,000</option>
+          <option>$10,001-$25,000</option>
+          <option>$25,001-$100,000</option>
+          <option>$100,001-$250,000</option>
+          <option>$250,000+</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <h3>About Your Goals</h3>
+
+      <div class="form-group">
+        <label for="targetRevenue"
+          >What is your company's target monthly revenue in 6 months
+          time?</label
+        >
+        <input
+          type="text"
+          id="targetRevenue"
+          placeholder="numbers only please, e.g. 2,500,000"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">Please enter your company's target</div>
+      </div>
+
+      <hr />
+
+      <h3>About Your Marketing</h3>
+      <div class="form-group">
+        <label for="">What channels are you currently marketing in?</label>
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            value=""
+            id="fbinsta"
+          checked/>
+          <label for="fbinsta" class="custom-control-label"
+            >Facebook/Instagram</label
+          >
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            value=""
+            id="google"
+          />
+          <label for="google" class="custom-control-label">Google</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            value=""
+            id="youtube"
+          />
+          <label for="youtube" class="custom-control-label">Youtube</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            value=""
+            id="other"
+          />
+          <label for="other" class="custom-control-label">Other</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            value=""
+            id="none"
+          />
+          <label for="none" class="custom-control-label">None</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="currentMonthlySpend"
+          >How much do you currently spend on digital marketing per month across
+          all channels? (Facebook, Google, Display, Email Marketing etc)</label
+        >
+        <select class="form-control" id="currentMonthlySpend" required>
+          <option>Less than $1,000</option>
+          <option>$1,001-$2,500</option>
+          <option>$2,501-$5,000</option>
+          <option>$5,001-$10,000</option>
+          <option>$10,001-$25,000</option>
+          <option>$25,001-$100,000</option>
+          <option>$100,000+</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="scalingStrategy"
+          >And finally, how are you looking to scale your marketing?</label
+        >
+        <select class="form-control" id="scalingStrategy" required>
+          <option>With an agency</option>
+          <option>In-house (with consuling from Buzzmedia)</option>
+          <option>Combination of both</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Book My Call</button>
+    </form>
+
+    <footer>
+      <ul>
+        <li><a href="#">Our services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of service</a></li>
+      </ul>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
     ></script>
   </body>
 </html>

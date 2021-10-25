@@ -41,7 +41,7 @@ form.addEventListener("submit", function (event) {
   );
 });
 
-var messagesRef = firebase.database().ref("messages");
+var messagesRef = app.firebase.database().ref("messages");
 
 function getInputVal(id) {
   return document.getElementById(id).value;
