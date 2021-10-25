@@ -1,3 +1,25 @@
+
+import { initializeApp } from 'firebase/app';
+import { getDatabase } from "firebase/database";
+
+// Set the configuration for your app
+// TODO: Replace with your project's config object
+const firebaseConfig = {
+  apiKey: "AIzaSyBOQJHkKaX2o_O5JsxvftSAeogIK2S0EzE",
+  authDomain: "buzzmedia-english-form.firebaseapp.com",
+  databaseURL: "https://buzzmedia-english-form-default-rtdb.firebaseio.com",
+  projectId: "buzzmedia-english-form",
+  storageBucket: "buzzmedia-english-form.appspot.com",
+  messagingSenderId: "111626673022",
+  appId: "1:111626673022:web:488a634940b4c5aabeb12f",
+  measurementId: "G-79WKSLCDEY"
+};
+
+const app = initializeApp(firebaseConfig);
+
+// Get a reference to the database service
+const database = getDatabase(app);
+
 var form = document.querySelector(".main-form");
 form.addEventListener("submit", function (event) {
   // if(form.checkValidity() === false) {
@@ -9,36 +31,13 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   var firstName = getInputVal("firstname");
   var lastName = getInputVal("lastname");
-  var goal = getInputVal("goalselect");
   var email = getInputVal("email");
-  var phone = getInputVal("phone");
-  var city = getInputVal("city");
-  var country = document.querySelector('input[name="country"]:checked').value;
-  var duration = getInputVal("duration");
-  var businessType = getInputVal("businessType");
-  var revenue = getInputVal("revenue");
-  var currentMonthlyRevenue = getInputVal("currentMonthlyRevenue");
-  var targetRevenue = getInputVal("targetRevenue");
-  // var channels = document.querySelectorAll('.channels:checked');
-  var currentMonthlySpend = getInputVal("currentMonthlySpend");
-  var scalingStrategy = getInputVal("scalingStrategy");
 
   //Save message
   saveMessage(
     firstName,
     lastName,
-    goal,
-    email,
-    phone,
-    city,
-    country,
-    duration,
-    businessType,
-    revenue,
-    currentMonthlyRevenue,
-    targetRevenue,
-    currentMonthlySpend,
-    scalingStrategy
+    email
   );
 });
 
@@ -52,35 +51,13 @@ function getInputVal(id) {
 function saveMessage(
   firstName,
   lastName,
-  goal,
-  email,
-  phone,
-  city,
-  country,
-  duration,
-  businessType,
-  revenue,
-  currentMonthlyRevenue,
-  targetRevenue,
-  currentMonthlySpend,
-  scalingStrategy
+  email
 ) {
   var newMessageRef = messagesRef.push();
 
   newMessageRef.set({
     firstName: firstName,
     lastName: lastName,
-    goal: goal,
-    email: email,
-    phone: phone,
-    city: city,
-    country: country,
-    duration: duration,
-    businessType: businessType,
-    revenue: revenue,
-    currentMonthlyRevenue: currentMonthlyRevenue,
-    targetRevenue: targetRevenue,
-    currentMonthlySpend: currentMonthlySpend,
-    scalingStrategy: scalingStrategy,
+    email: email
   });
 }
