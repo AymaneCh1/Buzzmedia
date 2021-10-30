@@ -63,4 +63,8 @@ footer ul li {
 footer ul li:last-child {
   margin-right: 0;
 }
+
+.serv-icon {
+  font-size: 35px;
+}
 /*# sourceMappingURL=form-style.css.map */
