@@ -72,6 +72,10 @@ footer ul li:last-child {
   width: 100%;
 }
 
+.buzz-logo {
+  width: 150px;
+}
+
 .fb-partner-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,5 +95,9 @@ footer ul li:last-child {
 .fb-partner-heading {
   width: 60%;
   margin: 10px 0;
+}
+
+.fb-partner-container-box {
+  width: 50%;
 }
 /*# sourceMappingURL=form-style.css.map */
