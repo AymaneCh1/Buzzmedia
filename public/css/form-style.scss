@@ -68,6 +68,20 @@ footer {
     font-size: 35px;
 }
 
-.bi {
-    font-size: 30px;
+.brand-logo {
+    width: 100%;
+}
+
+.fb-partner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fb-partner {
+        width: 50%;
+    }
+}
+
+.fb-partner-heading {
+    width: 60%;
+    margin: 10px 0;
 }

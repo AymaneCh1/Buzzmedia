@@ -68,7 +68,28 @@ footer ul li:last-child {
   font-size: 35px;
 }
 
-.bi {
-  font-size: 30px;
+.brand-logo {
+  width: 100%;
+}
+
+.fb-partner-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fb-partner-box .fb-partner {
+  width: 50%;
+}
+
+.fb-partner-heading {
+  width: 60%;
+  margin: 10px 0;
 }
 /*# sourceMappingURL=form-style.css.map */
