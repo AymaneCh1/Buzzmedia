@@ -3,4 +3,11 @@ html,
 body {
   font-family: 'Montserrat', sans-serif, serif;
 }
+
+@media (min-width: 768px) {
+  .main-form {
+    width: 50%;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=form-style.css.map */

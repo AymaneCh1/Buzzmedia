@@ -9,3 +9,9 @@ body {
 }
 
 
+@media (min-width:768px) {
+    .main-form {
+        width: 50%;
+        margin: auto;
+    }
+}
