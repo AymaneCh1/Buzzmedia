@@ -4,6 +4,17 @@ body {
   font-family: 'Montserrat', sans-serif, serif;
 }
 
+.buzz-form { display: none; }
+footer { display: none; }
+
+.EvjIIpBybRxh9ht5Pu7_ t_TerIAFr9_PTwbs4Wbf nI_zoWhcrj_usnPrutGy NyIQsFUSjWPcSDvt1EvE {
+  margin-top: 50px; 
+}
+
+.calendly-inline-widget { 
+  height: 1000px;
+ }
+
 @media (min-width: 768px) {
   .main-form {
     width: 50%;
